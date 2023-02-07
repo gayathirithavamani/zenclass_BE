@@ -12,7 +12,7 @@ app.use(express.json());
 
 app.use(
   cors({
-    origin: "*",
+    origin: "https://eloquent-raindrop-005f14.netlify.app",
   })
 );
 
